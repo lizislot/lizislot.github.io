@@ -14,7 +14,7 @@ The textbook recommended: Real Analysis by Jay Cummings 2nd ed
 ---
 
 ## 2. Sequences and Convergence
-- Definition: {a_n} → L if ∀ε>0, ∃N s.t. \abs(a_n - L) < ε when n > N  
+- Definition: {a_n} → L if ∀ε>0, ∃N s.t. \|(a_n - L)\| < ε when n > N  
 - Keywords: 数列, 收敛
 
 ---
@@ -32,7 +32,7 @@ The textbook recommended: Real Analysis by Jay Cummings 2nd ed
 ---
 
 ## 5. Absolute Convergence
-- If ∑ \abs(a_n) converges, then ∑ a_n also converges  
+- If ∑ \|(a_n)\| converges, then ∑ a_n also converges  
 - Keywords: 绝对收敛
 
 ---
@@ -77,6 +77,6 @@ The textbook recommended: Real Analysis by Jay Cummings 2nd ed
 ---
 
 ## 12. Uniform Continuity
-- f is uniformly continuous on A if ∀ε>0, ∃δ>0 such that \abs(x-y)<δ ⇒ \abs(f(x)-f(y))<ε for all x,y∈A  
+- f is uniformly continuous on A if ∀ε>0, ∃δ>0 such that \|(x-y)\|<δ ⇒ \|(f(x)-f(y))\|<ε for all x,y∈A  
 - Stronger than pointwise continuity  
 - Keywords: 一致连续
