@@ -78,7 +78,7 @@ The textbook recommended: Applied Combinatorics by Alan Tucker 6th ed
 
 ## 11. Matchings and Hall’s Marriage Theorem
 - Matching: set of edges without common vertices  
-- Hall’s Marriage Theorem: A bipartite graph G=(X,Y,E) has a matching covering X iff |N(S)| ≥ |S| for all S ⊆ X  
+- Hall’s Marriage Theorem: A bipartite graph G=(X,Y,E) has a matching covering X iff \|N(S)\| ≥ \|S\| for all S ⊆ X  
 - Keywords: 匹配, 婚姻定理
 
 ---
