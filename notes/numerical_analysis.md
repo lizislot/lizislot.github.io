@@ -30,7 +30,7 @@ This page summarizes key methods and concepts in numerical analysis.
 
 ## 4. Fixed-Point Iteration (不动点迭代)
 - Solve x = g(x) by iteration x_{n+1} = g(x_n)  
-- Convergence if |g’(x*)| < 1 at fixed point x*  
+- Convergence if \|g’(x*)\| < 1 at fixed point x*  
 - Keywords: 不动点, 迭代收敛条件
 
 ---
