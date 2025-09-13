@@ -1,80 +1,65 @@
-/* ====== 全局字体与排版 ====== */
+/* 深色背景 + 浅色字体 */
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 18px;        /* 默认 16px，调大 */
-    line-height: 1.8;       /* 行距拉开，阅读更舒适 */
-    max-width: 850px;       /* 控制正文宽度 */
-    margin: 2rem auto;      /* 页面居中 */
-    padding: 1rem;
-    background: #fafafa;
-    color: #333;
+  background: #1e1e1e;   /* 深灰接近黑色 */
+  color: #f5f5f5;        /* 浅灰字体 */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 900px;       /* 内容居中，最大宽度 900px */
+  padding: 2rem;
 }
 
-/* ====== 标题样式 ====== */
-h1, h2, h3 {
-    color: #007acc;         /* 主题蓝色 */
-    font-weight: bold;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+/* 标题高亮 */
+h1, h2, h3, h4 {
+  color: #4db8ff;        /* 蓝色标题 */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-/* ====== 段落 ====== */
-p {
-    margin-bottom: 1.2rem;  /* 段落间距 */
-}
-
-/* ====== 链接 ====== */
+/* 链接样式 */
 a {
-    color: #007acc;
-    text-decoration: none;
+  color: #66ccff;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* ====== 代码块与公式 ====== */
-code {
-    background: #eee;
-    padding: 0.2rem 0.4rem;
-    border-radius: 4px;
-    font-size: 0.95em;
+/* 代码块美化 */
+pre, code {
+  background: #2d2d2d;   /* 深灰背景 */
+  color: #f8f8f2;        /* 浅灰代码 */
+  font-family: "Fira Code", monospace;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
 }
 
-pre {
-    background: #2d2d2d;
-    color: #f8f8f2;
-    padding: 1rem;
-    border-radius: 6px;
-    overflow-x: auto;
-    font-size: 0.95em;
+/* 引用块美化 */
+blockquote {
+  border-left: 4px solid #4db8ff;
+  padding-left: 1rem;
+  color: #cccccc;
+  font-style: italic;
+  background: #2a2a2a;
+  margin: 1.5rem 0;
 }
 
-/* ====== 列表美化 ====== */
-ul {
-    margin-left: 1.5rem;
-}
-li {
-    margin-bottom: 0.5rem;
-}
-
-/* ====== 表格美化 ====== */
+/* 表格美化 */
 table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 1.5rem 0;
-    font-size: 0.95em;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
 }
 th, td {
-    border: 1px solid #ddd;
-    padding: 0.6rem;
+  border: 1px solid #444;
+  padding: 0.5rem 1rem;
 }
 th {
-    background: #f0f0f0;
-    font-weight: bold;
+  background: #333;
+  color: #fff;
 }
-
-body {
-    background: #1e1e1e;   /* 深色背景 */
-    color: #f5f5f5;        /* 浅色字体 */
+tr:nth-child(even) {
+  background: #2a2a2a;
 }
-
