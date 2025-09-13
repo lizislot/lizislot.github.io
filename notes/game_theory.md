@@ -36,7 +36,7 @@ By Anna R. Karlin and Yuval Peres
 
 ## 5. Hall’s Marriage Theorem in Hunter’s Game
 - Application of Hall’s theorem in bipartite matching to guarantee successful “hunting”  
-- Condition: |N(S)| ≥ |S| for every subset S  
+- Condition: \|N(S)\| ≥ \|S\| for every subset S  
 - Keywords: Marriage condition, bipartite matching
 
 ---
