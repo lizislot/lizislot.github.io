@@ -1,106 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>Calculus & Multivariable</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<style>
-body{background:#1e1e1e;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.8;margin:0 auto;max-width:900px;padding:2rem}
-h1,h2,h3{color:#4db8ff;margin:1.2rem 0 .6rem}
-a{color:#66ccff;text-decoration:none}a:hover{text-decoration:underline}
-code,pre{background:#2d2d2d;color:#f8f8f2;padding:.3rem .6rem;border-radius:6px;overflow-x:auto}
-ul{padding-left:1.1rem}
-blockquote{border-left:4px solid #4db8ff;padding-left:1rem;background:#2a2a2a;color:#ccc}
-</style>
-</head>
-<body>
-<h1>Calculus &amp; Multivariable</h1>
-<p>Keywords (中文): 微积分, 多元微积分</p>
+# Calculus and Multivariable Calculus Notes
 
-<h2>1. Differential Calculus &amp; Plotting</h2>
-<ul>
-  <li>Derivatives, higher derivatives; plotting to analyze behavior（关键词：微积分, 绘图）</li>
-</ul>
+This page summarizes key topics in calculus and multivariable calculus I have studied.
+The textbook recommended: Calculus By James Stewart 8th ed
+---
 
-<h2>2. Optimization Problems</h2>
-<ul>
-  <li>Critical points; second derivative test; Hessian for multivariable</li>
-  <li>Lagrange multipliers for constrained optimization（关键词：极值, 拉格朗日乘子）</li>
-</ul>
+## 1. Differential Calculus and Plotting
+- Derivatives, higher order derivatives
+- Plotting functions to analyze behavior
+- Keywords: 微积分, 绘图
 
-<h2>3. Limits &amp; Asymptotes</h2>
-<ul>
-  <li>Limits as x→a or x→∞; horizontal / vertical / oblique asymptotes（关键词：极限, 渐近线）</li>
-</ul>
+---
 
-<h2>4. Riemann Sums &amp; Integrals</h2>
-<ul>
-  <li>Area via Riemann sums; definition of the definite integral（关键词：黎曼和, 黎曼积分）</li>
-</ul>
+## 2. Optimization Problems
+- Critical points, second derivative test
+- Constrained optimization using Lagrange multipliers
+- Keywords: 极值, 拉格朗日乘子
 
-<h2>5. Midpoint Rule</h2>
-<ul>
-  <li>Numerical integration by midpoint（关键词：中点法）</li>
-</ul>
+---
 
-<h2>6. Mean Value Theorem</h2>
-<ul>
-  <li>If f continuous on [a,b] and differentiable on (a,b), ∃c: f′(c)= (f(b)−f(a))/(b−a)（关键词：中值定理）</li>
-</ul>
+## 3. Limits and Asymptotes
+- Limits as x → a or x → ∞
+- Horizontal, vertical, oblique asymptotes
+- Keywords: 极限, 渐近线
 
-<h2>7. Integration by Parts</h2>
-<ul>
-  <li>∫u dv = uv − ∫v du（关键词：积分分部法）</li>
-</ul>
+---
 
-<h2>8. Euler’s Method</h2>
-<ul>
-  <li>Basic ODE numerical solver（关键词：欧拉法）</li>
-</ul>
+## 4. Riemann Sums and Riemann Integrals
+- Approximating area under curves using sums
+- Definition of definite integral
+- Keywords: 黎曼和, 黎曼积分
 
-<h2>9. Taylor / Maclaurin Series</h2>
-<ul>
-  <li>Series expansions around a point（关键词：泰勒, 麦克劳林）</li>
-</ul>
+---
 
-<h2>10. Dot &amp; Cross Products</h2>
-<ul>
-  <li>Dot: a·b=|a||b|cosθ; Cross: a×b ⟂ a,b（关键词：向量, 点乘, 叉乘）</li>
-</ul>
+## 5. The Midpoint Rule
+- Numerical integration using midpoint approximation
+- Keywords: 中点法
 
-<h2>11. n-Dimensional Spheres</h2>
-<ul>
-  <li>(x₁−a₁)²+…+(xₙ−aₙ)²=r²（关键词：n维, Sphere, 方程）</li>
-</ul>
+---
 
-<h2>12. Multivariable Operations</h2>
-<ul>
-  <li>Partials, gradient, directional derivative（关键词：偏导, 梯度）</li>
-</ul>
+## 6. The Mean Value Theorem
+- If f is continuous on [a,b] and differentiable on (a,b), then f'(c) = (f(b)-f(a))/(b-a)
+- Keywords: 中值定理
 
-<h2>13. Lagrange Multipliers</h2>
-<ul>
-  <li>∇f=λ∇g for constraints（关键词：拉格朗日乘子）</li>
-</ul>
+---
 
-<h2>14. Changing Order of Integration</h2>
-<ul>
-  <li>Double/triple integrals dxdy = dydx（关键词：积分换序）</li>
-</ul>
+## 7. Integration by Parts
+- ∫ u dv = uv - ∫ v du
+- Keywords: 积分分部法
 
-<h2>15. Coordinate Transforms</h2>
-<ul>
-  <li>Cartesian ↔ spherical/polar（关键词：三维坐标, 球坐标, 极坐标）</li>
-</ul>
+---
 
-<h2>16. Grad, Div, Curl</h2>
-<ul>
-  <li>∇f, ∇·F, ∇×F（关键词：梯度, 散度, 旋度）</li>
-</ul>
+## 8. Euler's Method
+- Numerical solution of ODEs
+- Keywords: 欧拉法
 
-<h2>17. Green &amp; Stokes Theorems</h2>
-<ul>
-  <li>Green: ∮C F·dr = ∬R(∂N/∂x−∂M/∂y)dA; Stokes: ∮∂S F·dr = ∬S (∇×F)·dS（关键词：格林, 斯托克斯）</li>
-</ul>
-</body>
-</html>
+---
+
+## 9. Taylor / Maclaurin Series
+- f(x) = f(a) + f'(a)(x-a) + f''(a)/2!(x-a)^2 + ...
+- Keywords: 泰勒展开, 麦克劳林
+
+---
+
+## 10. Vector Space: Dot Product and Cross Product
+- Dot product: a·b = |a||b|cosθ
+- Cross product: a × b gives a vector perpendicular to a and b
+- Keywords: 向量, 点乘, 叉乘
+
+---
+
+## 11. Common Sphere Equations in n-Dimensional Space
+- Equation: (x1-a1)^2 + (x2-a2)^2 + ... + (xn-an)^2 = r^2
+- Keywords: n维, Sphere, 方程
+
+---
+
+## 12. Multivariable Calculus Operations
+- Partial derivatives, gradient, directional derivative
+- Keywords: 偏导数, 梯度
+
+---
+
+## 13. Lagrange Multipliers
+- Solve constrained optimization problems: ∇f = λ∇g
+- Keywords: 拉格朗日乘子
+
+---
+
+## 14. Changing the Order of Integration
+- Double/triple integrals: ∫∫ f(x,y) dxdy = ∫∫ f(x,y) dydx
+- Keywords: 积分换序
+
+---
+
+## 15. 3D Coordinates and Spherical / Polar Coordinates
+- Cartesian (x,y,z) ↔ Spherical (ρ,θ,φ)
+- Keywords: 三维坐标, 球坐标, 极坐标
+
+---
+
+## 16. Gradient, Divergence, Curl
+- ∇f, ∇·F, ∇×F
+- Gradient of scalar, divergence and curl of vector field
+- Keywords: 梯度, 散度, 旋度
+
+---
+
+## 17. Green's Theorem and Stokes' Theorem
+- Green: ∮C F·dr = ∬R (∂N/∂x - ∂M/∂y) dA
+- Stokes: ∮∂S F·dr = ∬S (∇×F)·dS
+- Keywords: 格林公式, 斯托克斯公式
