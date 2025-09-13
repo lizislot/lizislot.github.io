@@ -29,7 +29,7 @@ Pattern Recognition and Machine Learning by Christopher M.Bishop
 
 ## 3. Logistic Regression (逻辑回归)
 - Used for classification (binary outcomes)  
-- Model: P(y=1|x) = 1 / (1 + e^{-(β₀ + β₁x)})  
+- Model: P(y=1\|x) = 1 / (1 + e^{-(β₀ + β₁x)})  
 - Keywords: 分类, logistic function
 
 ---
