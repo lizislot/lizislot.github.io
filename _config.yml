@@ -1,2 +1,6 @@
 theme: minima
 markdown: kramdown
+
+sass:
+  load_paths:
+    - _sass
