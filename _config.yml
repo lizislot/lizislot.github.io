@@ -1,4 +1,2 @@
 theme: minima
 markdown: kramdown
-sass:
-  style: compressed
