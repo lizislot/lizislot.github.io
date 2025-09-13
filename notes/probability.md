@@ -22,13 +22,13 @@ The textbook recommended: A First Course in Probability by Sheldon Ross 10th ed
 ---
 
 ## 3. Conditional Probability
-- P(A|B) = P(A ∩ B) / P(B), if P(B) > 0  
+- P(A\|B) = P(A ∩ B) / P(B), if P(B) > 0  
 - Keywords: 条件概率
 
 ---
 
 ## 4. Bayes’ Theorem
-- P(A|B) = [P(B|A) P(A)] / P(B)  
+- P(A\|B) = [P(B\|A) P(A)] / P(B)  
 - Applications: medical testing, machine learning  
 - Keywords: 贝叶斯公式
 
@@ -75,7 +75,7 @@ The textbook recommended: A First Course in Probability by Sheldon Ross 10th ed
 ## 8. Moment Generating Functions and Variance
 - MGF: M_X(t) = E[e^{tX}]  
 - Variance: Var(X) = E[X²] - (E[X])²  
-- Law of Total Variance: Var(X) = E[Var(X|Y)] + Var(E[X|Y])  
+- Law of Total Variance: Var(X) = E[Var(X\Y)] + Var(E[X\Y])  
 - Keywords: 矩母函数, 方差公式, 完全方差公式
 
 ---
