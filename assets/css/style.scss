@@ -1,0 +1,5 @@
+---
+---
+
+@import "minima";   /* 先加载主题默认样式 */
+@import "custom";   /* 覆盖成我们在 _sass/custom.scss 写的内容 */
