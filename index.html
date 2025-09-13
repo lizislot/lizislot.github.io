@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Math & Applied Notes</title>
+    <title>Zehao Li - Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 2rem;
             background: #f9f9f9;
+            line-height: 1.6;
         }
-        h1 {
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin: 0;
             color: #333;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h2 {
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 0.3rem;
+            color: #007acc;
         }
         ul {
             list-style-type: none;
@@ -27,28 +46,56 @@
         a:hover {
             text-decoration: underline;
         }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
     </style>
 </head>
 <body>
-    <h1>📘 My Mathematics and Applied Notes</h1>
-    <p>Welcome! This site contains my study notes across mathematics, actuarial science, and applications.</p>
+    <!-- 自我介绍部分 -->
+    <header>
+        <h1>Zehao Li</h1>
+        <p>Graduate Student at Vanderbilt University</p>
+        <p>Email: <a href="mailto:zehao.li.1@vanderbilt.edu">zehao.li.1@vanderbilt.edu</a></p>
+        <p><a href="https://www.linkedin.com/in/zehao-li-62bb0923a/" target="_blank">LinkedIn</a></p>
+    </header>
 
-    <h2>Subjects</h2>
-    <ul>
-        <li><a href="notes/calculus_multivariable">Calculus & Multivariable</a></li>
-        <li><a href="notes/linear_algebra">Linear Algebra</a></li>
-        <li><a href="notes/complex_analysis">Complex Analysis</a></li>
-        <li><a href="notes/ode">Ordinary Differential Equations (ODE)</a></li>
-        <li><a href="notes/real_analysis">Real Analysis</a></li>
-        <li><a href="notes/topology">Topology</a></li>
-        <li><a href="notes/probability">Probability Theory</a></li>
-        <li><a href="notes/discrete_math">Discrete Mathematics</a></li>
-        <li><a href="notes/numerical_analysis">Numerical Analysis</a></li>
-        <li><a href="notes/machine_learning">Machine Learning</a></li>
-        <li><a href="notes/game_theory">Game Theory</a></li>
-        <li><a href="notes/actuarial_math">Actuarial Mathematics</a></li>
-        <li><a href="notes/fourier_analysis">Fourier Analysis</a></li>
-        <li><a href="notes/abstract_algebra">Abstract Algebra</a></li>
-    </ul>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my personal website!  
+            Here I share my background, research interests, and study notes.  
+            My focus is on mathematics, actuarial science, and applied methods including machine learning.
+        </p>
+    </section>
+
+    <!-- 学习笔记放在后面 -->
+    <section>
+        <h2>Study Notes</h2>
+        <p>Here are the subjects I have studied. Click to view detailed notes:</p>
+        <ul>
+            <li><a href="notes/calculus_multivariable.md">Calculus & Multivariable</a></li>
+            <li><a href="notes/linear_algebra.md">Linear Algebra</a></li>
+            <li><a href="notes/complex_analysis.md">Complex Analysis</a></li>
+            <li><a href="notes/ode.md">Ordinary Differential Equations (ODE)</a></li>
+            <li><a href="notes/real_analysis.md">Real Analysis</a></li>
+            <li><a href="notes/topology.md">Topology</a></li>
+            <li><a href="notes/probability.md">Probability Theory</a></li>
+            <li><a href="notes/discrete_math.md">Discrete Mathematics</a></li>
+            <li><a href="notes/numerical_analysis.md">Numerical Analysis</a></li>
+            <li><a href="notes/machine_learning.md">Machine Learning</a></li>
+            <li><a href="notes/game_theory.md">Game Theory</a></li>
+            <li><a href="notes/actuarial_math.md">Actuarial Mathematics</a></li>
+            <li><a href="notes/fourier_analysis.md">Fourier Analysis</a></li>
+            <li><a href="notes/abstract_algebra.md">Abstract Algebra</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Zehao Li</p>
+    </footer>
 </body>
 </html>
