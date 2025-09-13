@@ -1,3 +1,25 @@
+<style>
+body {
+    background: #1e1e1e;   /* 深色背景 */
+    color: #f5f5f5;        /* 白灰字体 */
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 2rem;
+}
+h1, h2, h3 {
+    color: #4db8ff;
+}
+a { color: #66ccff; }
+code, pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+}
+</style>
+
 # Abstract Algebra Notes
 
 
