@@ -79,14 +79,14 @@ The textbook recommended: Fundamentals of Complex Analysis by E.B Saff A.D. Snid
 - If f is analytic inside and on a circle C_R centered at z0 with radius R,
   and |f(z)| ≤ M, then:
   
-  |f^{(n)}(z0)| ≤ (n! M) / R^n
+  \abs(f^{(n)}(z0)) ≤ (n! M) / R^n
 - Keywords: 柯西估计
 
 ---
 
 ## 12. Liouville’s Theorem and Maximum Modulus Principle
 - Liouville: A bounded entire function must be constant
-- Maximum modulus principle: |f(z)| achieves maximum only on boundary
+- Maximum modulus principle: \abs(f(z)) achieves maximum only on boundary
 - Keywords: 刘维尔定理, 最大值定理, harmonic function
 
 ---
