@@ -1,8 +1,8 @@
 # Real Analysis Notes
-# 实分析笔记（关键词保留中文）
 
 This page summarizes fundamental concepts in real analysis.  
-本页面总结了实分析中的一些核心知识点。
+The textbook recommended: Real Analysis by Jay Cummings 2nd ed
+                        and Taozhexuan's real Analysis 陶哲轩实分析 
 
 ---
 
