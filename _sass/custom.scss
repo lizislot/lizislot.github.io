@@ -1,0 +1,74 @@
+/* ====== 全局字体与排版 ====== */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;        /* 默认 16px，调大 */
+    line-height: 1.8;       /* 行距拉开，阅读更舒适 */
+    max-width: 850px;       /* 控制正文宽度 */
+    margin: 2rem auto;      /* 页面居中 */
+    padding: 1rem;
+    background: #fafafa;
+    color: #333;
+}
+
+/* ====== 标题样式 ====== */
+h1, h2, h3 {
+    color: #007acc;         /* 主题蓝色 */
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ====== 段落 ====== */
+p {
+    margin-bottom: 1.2rem;  /* 段落间距 */
+}
+
+/* ====== 链接 ====== */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====== 代码块与公式 ====== */
+code {
+    background: #eee;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.95em;
+}
+
+pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.95em;
+}
+
+/* ====== 列表美化 ====== */
+ul {
+    margin-left: 1.5rem;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* ====== 表格美化 ====== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 0.95em;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.6rem;
+}
+th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
