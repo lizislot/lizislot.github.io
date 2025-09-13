@@ -63,7 +63,7 @@ The textbook recommended: Calculus By James Stewart 8th ed
 ---
 
 ## 10. Vector Space: Dot Product and Cross Product
-- Dot product: a·b = |a||b|cosθ
+- Dot product: a·b = $|a|$$|b|$cosθ
 - Cross product: a × b gives a vector perpendicular to a and b
 - Keywords: 向量, 点乘, 叉乘
 
