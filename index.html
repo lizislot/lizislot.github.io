@@ -41,6 +41,25 @@
     li {
       margin: 0.5rem 0;
     }
+    /* Interest grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .grid-item {
+      text-align: center;
+    }
+    .grid-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .date {
+      font-size: 0.9rem;
+      color: #bbb;
+    }
   </style>
 </head>
 <body>
@@ -88,17 +107,35 @@
   <section>
     <h2>Detailed Notes</h2>
     <ul>
-      <li>
-        <a href="notes/Analysis/Analysis_Note_1.pdf" target="_blank">
-          📄 Analysis Notes (Part 1)
-        </a>
-      </li>
-      <li>
-        <a href="notes/Analysis/Analysis_Note_2.pdf" target="_blank">
-          📄 Analysis Notes (Part 2)
-        </a>
-      </li>
+      <li><a href="notes/Analysis/Analysis_Note_1.pdf" target="_blank">📄 Analysis Notes (Part 1)</a></li>
+      <li><a href="notes/Analysis/Analysis_Note_2.pdf" target="_blank">📄 Analysis Notes (Part 2)</a></li>
     </ul>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="images/anime.png" alt="Anime" />
+        <p>Recently watched anime</p>
+        <p class="date">Updated: 2025-09-13</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/movie.png" alt="Movie" />
+        <p>Recently watched movie</p>
+        <p class="date">Updated: 2025-09-13</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/tv.png" alt="TV Show" />
+        <p>Recently watched TV show</p>
+        <p class="date">Updated: 2025-09-13</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/book.png" alt="Book" />
+        <p>Recently read book</p>
+        <p class="date">Updated: 2025-09-13</p>
+      </div>
+    </div>
   </section>
 </body>
 </html>
