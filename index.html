@@ -41,7 +41,16 @@
     li {
       margin: 0.5rem 0;
     }
-    /* Interest grid */
+    /* Summary Notes grid */
+    .summary-notes {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* two equal columns */
+      gap: 1rem 2rem;
+    }
+    .summary-notes li {
+      margin: 0.5rem 0;
+    }
+    /* Interests grid */
     .grid-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -87,7 +96,7 @@
 
   <section>
     <h2>Summary Notes</h2>
-    <ul>
+    <ul class="summary-notes">
       <li><a href="notes/calculus_multivariable.html">Calculus & Multivariable</a></li>
       <li><a href="notes/linear_algebra.html">Linear Algebra</a></li>
       <li><a href="notes/complex_analysis.html">Complex Analysis</a></li>
@@ -117,27 +126,23 @@
     <h2>Interests</h2>
     <div class="grid-container">
       <div class="grid-item">
-        <img src="images/anime.png" alt="Anime" />
+        <img src="images/anime.jpg" alt="Anime" />
         <p>Recently watched anime</p>
-        <p>Zenshu </p>
         <p class="date">Updated: 2025-09-13</p>
       </div>
       <div class="grid-item">
-        <img src="images/movie.png" alt="Movie" />
+        <img src="images/movie.jpg" alt="Movie" />
         <p>Recently watched movie</p>
-        <p>The Thursday Murder Club</p>
         <p class="date">Updated: 2025-09-13</p>
       </div>
       <div class="grid-item">
-        <img src="images/tv.png" alt="TV Show" />
+        <img src="images/tv.jpg" alt="TV Show" />
         <p>Recently watched TV show</p>
-        <p>Wednesday S2</p>
         <p class="date">Updated: 2025-09-13</p>
       </div>
       <div class="grid-item">
-        <img src="images/book.png" alt="Book" />
+        <img src="images/book.jpg" alt="Book" />
         <p>Recently read book</p>
-        <p>木曜日にはココアを</p>
         <p class="date">Updated: 2025-09-13</p>
       </div>
     </div>
