@@ -6,7 +6,8 @@ from pathlib import Path
 
 import pandas as pd
 
-REQUIRED_COLUMNS = {"date", "open", "high", "low", "close", "volume"}
+REQUIRED_COLUMNS = ["date", "open", "high", "low", "close", "volume"]
+REQUIRED_COLUMN_SET = set(REQUIRED_COLUMNS)
 
 
 def load_price_csv(path: str | Path) -> pd.DataFrame:
@@ -28,14 +29,14 @@ def load_price_csv(path: str | Path) -> pd.DataFrame:
     if df.empty:
         raise ValueError(f"CSV file '{csv_path}' contains no data.")
 
-    missing = REQUIRED_COLUMNS - set(df.columns)
+    missing = REQUIRED_COLUMN_SET - set(df.columns)
     if missing:
         missing_list = ", ".join(sorted(missing))
         raise ValueError(
             f"CSV file '{csv_path}' is missing required columns: {missing_list}."
         )
 
-    df = df[list(REQUIRED_COLUMNS)].copy()
+    df = df[REQUIRED_COLUMNS].copy()
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
     if df["date"].isna().any():
         raise ValueError(f"CSV file '{csv_path}' contains invalid date values.")
